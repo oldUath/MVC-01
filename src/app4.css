@@ -1,0 +1,19 @@
+#app4 .yuan{
+    width: 200px;
+    height:200px;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin: 100px auto;
+}
+#app4 .yuan.active{
+    animation: change 1s infinite alternate linear;
+
+}
+@keyframes change{
+    0%{
+        background-color: red;
+    }
+    100%{
+        background-color: green;
+    }
+}
